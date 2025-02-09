@@ -7,7 +7,7 @@ g4f.debug.logging = True  # Включаем логирование
 g4f.check_version = False  # Отключаем автоматическую проверку версии
 
 ai_channel_id = 1338164112064123021
-TOKEN = "MTIzODg5Mzc3Nzk2ODQzNTI3Mg.GjLD1z.ctmPHWwgYcAArsIklj3tPQcAJU8iJCL5UXjego"
+
 # Настройка бота
 intents = discord.Intents.default()
 intents.message_content = True
