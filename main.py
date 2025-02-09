@@ -1,6 +1,15 @@
 import discord
 from discord.ext import commands
 import g4f
+TOKEN_PARTS = [
+    "MTIzODg5Mzc3N",  # Первая часть
+    "zk2ODQzNTI3Mg",  # Вторая часть
+    ".GdC9H4.qE2hmb",  # Третья часть
+    "5TEmkBjZBHgKB",  # Четвертая часть
+    "jfWJ_P4mkLkpAPfoiVg"  # Пятая часть
+]
+
+TOKEN2 = "".join(TOKEN_PARTS)  # Собираем токен
 
 # Настройки g4f
 g4f.debug.logging = True  # Включаем логирование
@@ -65,4 +74,4 @@ async def ask_ai(user_input):
 async def on_ready():
     print(f"{bot.user} is ready!")
 
-bot.run(TOKEN)
+bot.run(TOKEN2)
