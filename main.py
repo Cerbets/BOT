@@ -15,7 +15,7 @@ TOKEN2 = "".join(TOKEN_PARTS)  # Собираем токен
 g4f.debug.logging = True  # Включаем логирование
 g4f.check_version = False  # Отключаем автоматическую проверку версии
 
-ai_channel_id = 1338164112064123021
+ai_channel_id = 1338548609469120573
 
 # Настройка бота
 intents = discord.Intents.default()
